@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>DGUI Lesson 5 Formulare</title>
+        <title>Formular</title>
         <meta name="description" content="html5 Forms">
         <meta name="author" content="IT.Eigenmann">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
@@ -19,27 +19,28 @@
             <h1>HTML Formular</h1>
             <hr>
 			<form>
-			  <div class="form-group">
-				<label for="Hobby">Hobby eintragen</label>
-				<input type="text" class="form-control" id="Hobby" placeholder="Hobby">
-			  </div>
-			  <div class="form-group">
-				<label for="Datum">Datum ihres Besuches eintragen</label>
-				<input type="date" class="form-control" id="Datum" placeholder="Datum">
-			  </div>
-			  <div class="form-group">
-				<label for="Standort">Standort eintragen</label>
-				<input type="text" class="form-control" id="Standort" placeholder="Standort">
-			  </div>
-			  <div class="form-group">
-				<label for="Umkreis">Umkreis in Kilometer eintragen</label>
-				<input type="number" class="form-control" id="Umkreis" placeholder="Umkreis">
-			  </div>
-			<div class="form-group row">
-				<div class="col-sm-10">
-				  <button type="submit" class="senden">Senden</button>
+				<div class="form-row">
+					<div class="col">
+					<select class="browser-default custom-select">
+						<option selected>Hobby auswählen</option>
+						<option value="1">Windsurfen</option>
+						<option value="2">Wandern</option>
+						<option value="3">Radfahren</option>
+					</select>
+					</div>
+					<div class="col">
+						<input type="datetime-local" class="form-control" id="Datum" placeholder="Datum">
+					</div>
+					<div class="col">
+						<input type="text" class="form-control" id="Standort" placeholder="Standort">
+					</div>
+					<div class="col">
+						<input type="number" class="form-control" id="Umkreis" placeholder="Umkreis">
+					</div>
+					<div class="col">
+						<button type="submit" class="btn btn-info">Senden</button>
+					</div>
 				</div>
-			</div>
               <!-- https://getbootstrap.com/docs/4.3/components/forms/#form-controls -->
               <!-- http://html5pattern.com/Dates -->
               <!-- https://www.w3schools.com/howto/howto_css_inline_form.asp -->

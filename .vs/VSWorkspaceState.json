@@ -1,7 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\05_htmlforms"
+    "\\02_javascript_clientside\\02_starterpackage\\js",
+    "\\04_svg\\04_starterpackage",
+    "\\04_svg\\04_starterpackage\\style",
+    "\\05_htmlforms",
+    "\\05_htmlforms\\05_starterpackage",
+    "\\05_htmlforms\\05_starterpackage\\style",
+    "\\06_objectorientedJavascript",
+    "\\06_objectorientedJavascript\\06_Starterpackage"
   ],
+  "SelectedNode": "\\05_htmlforms\\05_starterpackage\\style",
   "PreviewInSolutionExplorer": false
 }
