@@ -22,7 +22,7 @@
 				<div class="form-row">
 					<div class="col">
 					<select class="browser-default custom-select">
-						<option selected>Hobby auswählen</option>
+						<option selected>Aktivit&aumlt ausw&aumlhlen</option>
 						<option value="1">Windsurfen</option>
 						<option value="2">Wandern</option>
 						<option value="3">Radfahren</option>
@@ -34,20 +34,35 @@
 					<div class="col">
 						<input type="text" class="form-control" id="Standort" placeholder="Standort">
 					</div>
-					<div class="col">
-						<input type="number" class="form-control" id="Umkreis" placeholder="Umkreis">
+					<div class="dropdown">
+						<button id="dLabel" type="button" class="btn btn-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Filter
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dLabel">
+							<div class="col">
+								<div class="checkbox">
+									<label>
+									<input type="checkbox" value="">Restaurants in der N&aumlhe</label>
+								</div>
+							</div>
+							<div class="col">
+								Umkreis ausw&aumlhlen
+								<div class="slidecontainer">
+								  <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="col">
 						<button type="submit" class="btn btn-info">Senden</button>
 					</div>
 				</div>
+			</form>
               <!-- https://getbootstrap.com/docs/4.3/components/forms/#form-controls -->
               <!-- http://html5pattern.com/Dates -->
               <!-- https://www.w3schools.com/howto/howto_css_inline_form.asp -->
-            </form>
         </div>
         <script type="text/javascript">
         </script>
     </body>
-
 </html>
